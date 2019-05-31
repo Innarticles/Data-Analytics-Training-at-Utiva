@@ -8,7 +8,7 @@ Training Resources and Links
 - Others - https://www.postgresql.org/download/
 
 ## Sample Datasets 
-- Film Business Data  [www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip](Click to download)
+- Film Business Data [Click to download](www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
 - Extract to .tar file 
 - Using PgAdmin, create a database and restore the database by pointing to the .tar file (dvdrental.tar)
 
