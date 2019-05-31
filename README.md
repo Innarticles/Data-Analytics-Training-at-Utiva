@@ -2,16 +2,17 @@
 Training Resources and Links 
 
 ## SQL Installations (Postgres)
-- Windows - https://www.postgresql.org/download/windows/
-- Mac OS - https://www.postgresql.org/download/macosx/
+- Windows - https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+- Mac OS - https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 - Ubuntu - https://www.postgresql.org/download/linux/ubuntu/
 - Others - https://www.postgresql.org/download/
 
 ## Sample Datasets 
-- Film Business Data [Click to download](www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
+- Film Business Data [Click to download](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip)
 - Extract to .tar file 
 - Using PgAdmin, create a database and restore the database by pointing to the .tar file (dvdrental.tar)
 
-## Instructions on getting updates
-- Watch and Follow this repo (see top right corner) for updates
+## Instructions on getting updates for on this page
+- Watch and Follow this repository (Click on the Watch and Star button at the top right corner of this page). This will enable you get email notification once there is a new update.
+
 
