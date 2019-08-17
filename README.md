@@ -1,4 +1,4 @@
-# Data-Analytics-Training-at-Utiva
+# Data Analytics Training at Utiva
 Training Resources and Links 
 [Slides](https://docs.google.com/presentation/d/1hveKHs6rw_eU9p7Hia77B0RfjHOQiRhozguMjdvtb7o/edit?usp=sharing)
 
