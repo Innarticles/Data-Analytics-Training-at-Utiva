@@ -37,6 +37,7 @@ VALUES
     (2, 'Orange'),
     (3, 'Banana'),
     (4, 'Cucumber');
+   
  
 INSERT INTO basket_b (id, fruit)
 VALUES
@@ -46,3 +47,29 @@ VALUES
     (4, 'Pear');
 ```
 
+## Update on in-class exercise on using `WHERE IN ()` with `INNER JOIN` 
+Proposed Solution that failed
+```
+SELECT 
+ *
+FROM 
+ customer
+INNER JOIN payment on (payment.customer_id = customer.customer_id)
+WHERE payment.customer_id IN (
+	SELECT 
+	Distinct payment.customer_id
+	FROM payment
+	WHERE payment.amount > 5.0
+);
+```
+Working Solution - Even simpler!!
+```
+
+SELECT 
+	*
+FROM 
+ customer
+INNER JOIN payment on (payment.customer_id = customer.customer_id)
+WHERE payment.amount > 5.0
+
+```
